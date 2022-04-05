@@ -4,9 +4,9 @@
 
 import time
 import os
-# import winsound
+import winsound
 
-# winsound.PlaySound("granzort.wav", winsound.SND_ASYNC)
+winsound.PlaySound("granzort.wav", winsound.SND_ASYNC)
 
 def distance(a,b):
     origin_x = row//2
